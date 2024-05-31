@@ -1,31 +1,36 @@
 {
-  "id": "a21dcf59-1d3f-46ff-a94b-84f9a6e077fa",
-  "name": "HelloGitHub",
-  "publisher": "DEan",
-  "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
-  "logo": "",
-  "dependencies": [],
-  "screenshots": [],
-  "platform": "1.0.0.0",
-  "application": "22.0.0.0",
-  "idRanges": [
+    "id": "9f8407c3-9481-4d51-8fbc-8c4cdf6e323d",
+    "name": "Hello World",
+    "publisher": "Dean",
+    "version": "1.0.0.0",
+    "platform": "1.0.0.0",
+    "application": "24.0.0.0",
+    "runtime": "13.0",
+    "idRanges": [
+        {
+            "from": 50000,
+            "to": 50049
+        },
+        {
+            "from": 50100,
+            "to": 50149
+        }
+    ],
+    "features": ["TranslationFile"],
+
+    "dependencies": [
     {
-      "from": 50000,
-      "to": 50149
-    }
-  ],
-  "features": [
-    "NoImplicitWith"
-  ],
-  "resourceExposurePolicy": {
-    "allowDebugging": true,
-    "allowDownloadingSource": false,
-    "includeSourceInSymbolFile": false
-  }
+        "id": "e1d97edc-c239-46b4-8d84-6368bdf67c8b",
+        "name": "E-Document Core",
+        "publisher": "Microsoft",
+        "version": "23.0.0.0"
+    },
+    {
+        "id": "75f1590f-55c5-4501-ae63-bada5534e852",
+        "name": "Performance Toolkit",
+        "publisher": "Microsoft",
+        "version": "24.1.18927.19498"
+    } 
+
+    ]         
 }
